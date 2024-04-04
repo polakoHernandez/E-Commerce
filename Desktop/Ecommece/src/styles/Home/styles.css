@@ -1,0 +1,12 @@
+.right-section {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 0px 0px pink;
+}
+
+.img {
+  width: 500px;
+  height: 400px;
+}

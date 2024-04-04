@@ -1,0 +1,22 @@
+.card-item {
+  width: 350px;
+  max-width: 350px;
+  height: 350px;
+  max-height: 350px;
+  cursor: pointer;
+  border: 1px solid pink;
+  transition: transform 0.3s, border 0.3s, box-shadow 0.3s;
+  position: relative;
+  z-index: 1;
+  background-color: white;
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-right: 5px;
+  margin-bottom: 15px;
+}
+
+.card-item:hover {
+  transform: rotate(1deg);
+  border: 2px solid pink;
+  box-shadow: 5px 5px 0px black;
+}
